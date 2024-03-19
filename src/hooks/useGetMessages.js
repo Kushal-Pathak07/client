@@ -7,6 +7,7 @@ const useGetMessages = () => {
 
   useEffect(() => {
     const getMessages = async () => {
+      console.log("fn");
       setLoading(true);
       try {
         const res = await fetch(`/api/messages/${selectedConversation._id}`);
