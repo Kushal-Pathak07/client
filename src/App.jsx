@@ -4,6 +4,7 @@ import Home from './pages/home/Home.jsx'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast'
 import { useAuthContext } from './context/AuthContext'
+import 'vite/modulepreload-polyfill'
 
 function App() {
 
